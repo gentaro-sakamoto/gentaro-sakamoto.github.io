@@ -1,6 +1,6 @@
 ---
 published: false
-title: test
+title: About me
 layout: post
 ---
-test
+I am a Ruby on Rails developer, hobbyist basketball player, hobbyist mountain hiker.
