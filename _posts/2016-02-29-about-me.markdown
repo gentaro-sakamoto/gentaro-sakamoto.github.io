@@ -5,7 +5,7 @@ layout: post
 ---
 I am a Ruby on Rails developer, hobbyist basketball player, hobbyist mountain hiker, living in Tokyo. I'm currently working for [ATND](https://atnd.org/), one of the active event platform in Japan.
 
-
+My curiosity is going for [DevOps](https://en.wikipedia.org/wiki/DevOps) such as chef and docker for the happy and comfortable development and JS framework such as [react](https://facebook.github.io/react/) for more reactive application.
 
 ## My Career Detail
 ### In Jul, 2009
