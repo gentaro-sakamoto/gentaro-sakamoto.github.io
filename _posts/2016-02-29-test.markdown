@@ -7,7 +7,7 @@ I am a Ruby on Rails developer, hobbyist basketball player, hobbyist mountain hi
 
 
 
-# My Career Detail
+## My Career Detail
 ### In Jul, 2009
 I was working for [Marge](http://www.maru.jp/), which sells affiliate ad network system, using LAMP, Jquery.
 
