@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Hi, I'm Gentaro
 layout: post
 ---
