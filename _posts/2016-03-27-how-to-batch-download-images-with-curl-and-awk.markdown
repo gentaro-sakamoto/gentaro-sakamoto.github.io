@@ -46,3 +46,7 @@ can  use '#' followed by a number in the <file> specifier. That variable will be
 
 ### Note
 - You need to escape the meta character in the image names or image URLs when you have.
+
+
+### Reference
+[using curl with awk in command line/shell script](http://www.tek-tips.com/viewthread.cfm?qid=1678282)
