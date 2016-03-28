@@ -8,20 +8,17 @@ I am a Ruby on Rails developer, hobbyist basketball player, hobbyist mountain hi
 My curiosity is going for [DevOps](https://en.wikipedia.org/wiki/DevOps) such as chef and docker for the happy and comfortable development and JS framework such as [react](https://facebook.github.io/react/) for more reactive application.
 
 ## My Career Detail
-### In Jul, 2009
+### Jul, 2009
 I was working for [Marge](http://www.maru.jp/), which sells affiliate ad network system, using LAMP, Jquery.
 
-### In Jul, 2011
-I was working for Regxe, which produced socialized tower defence game, using LAMP, Zendframwork, Jquery.
-
-### In Jul, 2011
+### Jul, 2011
 I was working for Regxe, which produced socialized tower defence game, using LAMP, Zendframwork, Jquery, Smarty
 
-### In Jul, 2013
+### Jul, 2013
 I was working for [Minna-no-wedding](http://www.mwed.jp/), which has  been providing  wedding hall search service, using Ruby on Rails, Jquery, MySQL, Nginx, Jenkins, Git, Rspec, Capybara-webkit, erb
 
-### In May, 2015
+### May, 2015
 I was working for [MediWeb](http://www.mediweb.jp/), which has  been providing booking cloud system, using Ruby on Rails, Jquery, PostgreSQL, Nginx, Jenkins, Git, Rspec, Capybara-webkit, haml
 
-### In May, 2016
+### May, 2016
 I've been working for [Recruit Career](https://www.recruitcareer.co.jp/), which has  been providing event platform, using Ruby on Rails, Jquery, MySQL, Passenger, Jenkins, Git, Rspec, Poltergeist, slim
