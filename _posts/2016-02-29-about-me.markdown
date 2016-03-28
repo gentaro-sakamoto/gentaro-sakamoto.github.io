@@ -8,6 +8,7 @@ I am a Ruby on Rails developer, hobbyist basketball player, hobbyist mountain hi
 My curiosity is going for [DevOps](https://en.wikipedia.org/wiki/DevOps) such as chef and docker for the happy and comfortable development and JS framework such as [react](https://facebook.github.io/react/) for more reactive application.
 
 ## My Career Detail
+
 ### Jul, 2009
 I was working for [Marge](http://www.maru.jp/), which sells affiliate ad network system, using LAMP, Jquery.
 
