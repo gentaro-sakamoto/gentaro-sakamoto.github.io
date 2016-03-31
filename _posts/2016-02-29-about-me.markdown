@@ -15,7 +15,7 @@ I was working for [Marge](http://www.maru.jp/), which sells affiliate ad network
 ### Jul, 2011
 I was working for Regxe, which produced socialized tower defence game, using LAMP, Zendframwork, Jquery, Smarty
 
-### Jul, 2013
+### Apr, 2013
 I was working for [Minna-no-wedding](http://www.mwed.jp/), which has  been providing  wedding hall search service, using Ruby on Rails, Jquery, MySQL, Nginx, Jenkins, Git, Rspec, Capybara-webkit, erb
 
 ### May, 2015
