@@ -1,6 +1,7 @@
 excerpt_separator: ""
 pygments: true
 markdown: kramdown
+highlighter: rouge
 url: http://gentaro-sakamoto.github.io
 title: Tokyo.Gentaro
 email: gentaro.sakamoto@gmail.com
