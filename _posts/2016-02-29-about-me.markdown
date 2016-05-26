@@ -6,20 +6,21 @@ layout: post
 I am a Ruby on Rails developer, hobbyist basketball player, hobbyist mountain hiker, living in Tokyo. I'm currently working for [ATND](https://atnd.org/), one of the active event platform in Japan.
 
 My curiosity is going for [DevOps](https://en.wikipedia.org/wiki/DevOps) such as chef and docker for the happy and comfortable development and JS framework such as [react](https://facebook.github.io/react/) for more reactive application.
+And, in Apr, I got the UK YMS work visa(2 years). So I'm looking for job opportunities at abroad to be a global engineer!
 
 ## My Career Detail
 
-### Jul, 2009
-I was working for [Marge](http://www.maru.jp/), which sells affiliate ad network system, using LAMP, Jquery.
-
-### Jul, 2011
-I was working for Regxe, which produced socialized tower defence game, using LAMP, Zendframwork, Jquery, Smarty
-
-### Apr, 2013
-I was working for [Minna-no-wedding](http://www.mwed.jp/), which has  been providing  wedding hall search service, using Ruby on Rails, Jquery, MySQL, Nginx, Jenkins, Git, Rspec, Capybara-webkit, erb
+### May, 2016
+I've been working for [Recruit Career](https://www.recruitcareer.co.jp/), which has  been providing event platform, using Ruby on Rails, Jquery, MySQL, Passenger, Jenkins, Git, Rspec, Poltergeist, slim
 
 ### May, 2015
 I was working for [MediWeb](http://www.mediweb.jp/), which has  been providing booking cloud system, using Ruby on Rails, Jquery, PostgreSQL, Nginx, Jenkins, Git, Rspec, Capybara-webkit, haml
 
-### May, 2016
-I've been working for [Recruit Career](https://www.recruitcareer.co.jp/), which has  been providing event platform, using Ruby on Rails, Jquery, MySQL, Passenger, Jenkins, Git, Rspec, Poltergeist, slim
+### Apr, 2013
+I was working for [Minna-no-wedding](http://www.mwed.jp/), which has  been providing  wedding hall search service, using Ruby on Rails, Jquery, MySQL, Nginx, Jenkins, Git, Rspec, Capybara-webkit, erb
+
+### Jul, 2011
+I was working for Regxe, which produced socialized tower defence game, using LAMP, Zendframwork, Jquery, Smarty
+
+### Jul, 2009
+I was working for [Marge](http://www.maru.jp/), which sells affiliate ad network system, using LAMP, Jquery.
