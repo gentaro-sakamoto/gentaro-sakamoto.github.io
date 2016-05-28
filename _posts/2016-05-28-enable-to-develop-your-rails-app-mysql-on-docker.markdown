@@ -1,6 +1,6 @@
 ---
 published: true
-title: Enable to develop your Rails app(MySQL) on Docker.
+title: Enable To Develop Your Rails App(MySQL) On Docker.
 layout: post
 ---
 ### Prerequisite
