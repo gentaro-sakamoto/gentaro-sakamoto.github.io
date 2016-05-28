@@ -11,7 +11,7 @@ And, in Apr, I got the UK YMS work visa(2 years). So I'm looking for job opportu
 ## My Career Detail
 
 ### May, 2016
-I've been working for [Recruit Career](https://www.recruitcareer.co.jp/), which has  been providing event platform, using Ruby on Rails, Jquery, MySQL, Passenger, Jenkins, Git, Rspec, Poltergeist, slim
+I've been working for [Recruit Career](https://www.recruitcareer.co.jp/), which has  been providing event platform, using Ruby on Rails, Jquery, MySQL, Passenger, Jenkins, Git, Rspec, Poltergeist, slim, Docker
 
 ### May, 2015
 I was working for [MediWeb](http://www.mediweb.jp/), which has  been providing booking cloud system, using Ruby on Rails, Jquery, PostgreSQL, Nginx, Jenkins, Git, Rspec, Capybara-webkit, haml
