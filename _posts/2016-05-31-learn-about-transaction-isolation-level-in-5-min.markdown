@@ -1,6 +1,6 @@
 ---
 published: true
-title: Learn About Transaction Isolation Level In 5 Min
+title: Understand Transaction Isolation Level In 5 Min
 layout: post
 ---
 ### Transaction Isolation Level
