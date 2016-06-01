@@ -3,11 +3,13 @@ published: true
 title: How To Install Docker and Docker Compose On CentOS 6.5
 layout: post
 ---
+How To Install Docker and Docker Compose on CentOS 6.5
+
 ### Check Your Current Kernel Version
 > Docker requires a 64-bit installation regardless of your CentOS version. Also, your kernel must be 3.10 at minimum, which CentOS 7 runs.
 
 ```
-[clduser@ip-172-20-127-143 ~]$ uname -r
+[user@instance ~]$ uname -r
 2.6.32-431.29.2.el6.x86_64
 ```
 
@@ -16,7 +18,7 @@ My kernel was quite old. So I've updated the kernel to the following version fol
 Then now we have the kernel version 3.10.
 
 ```
-[clduser@ip-172-20-127-143 ~]$ uname -r
+[user@instance ~]$ uname -r
 3.10.101-1.el6.elrepo.x86_64
 ```
 
