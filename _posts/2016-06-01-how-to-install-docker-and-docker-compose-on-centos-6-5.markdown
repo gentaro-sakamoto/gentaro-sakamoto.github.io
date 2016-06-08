@@ -69,5 +69,6 @@ docker-compose --version
 ```
 
 # References
+- [Install Docker and Learn Basic Container Manipulation in CentOS and RHEL 7/6 – Part 1](http://www.tecmint.com/install-docker-and-learn-containers-in-centos-rhel-7-6/)
 - [Installation on CentOS](https://docs.docker.com/engine/installation/linux/centos/)
 - [Install Docker Compose](https://docs.docker.com/compose/install/)
