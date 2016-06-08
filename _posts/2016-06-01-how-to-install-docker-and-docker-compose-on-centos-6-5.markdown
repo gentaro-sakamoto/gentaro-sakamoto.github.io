@@ -4,6 +4,7 @@ title: How To Install Docker and Docker Compose on CentOS 7.2
 layout: post
 ---
 Check your OS version
+
 ```
 [user@instance ~]$ cat /etc/redhat-release
 CentOS Linux release 7.2.1511 (Core)
