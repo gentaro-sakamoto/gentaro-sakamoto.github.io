@@ -25,8 +25,8 @@ Then now we have the kernel version 3.10.
 ### Install Docker
 
 ```
-yum install epel-release
-yum install docker-io
+sudo yum install epel-release
+sudo yum install docker-io
 ```
 
 ### To Allow Non-root User To Use Docker
