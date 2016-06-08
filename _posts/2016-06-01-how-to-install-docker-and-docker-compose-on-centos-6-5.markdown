@@ -22,6 +22,13 @@ Then now we have the kernel version 3.10.
 3.10.101-1.el6.elrepo.x86_64
 ```
 
+### Install Docker
+
+```
+yum install epel-release
+yum install docker-io
+```
+
 ### To Allow Non-root User To Use Docker
 
 If you don't have docker group, let's create the docker group.
