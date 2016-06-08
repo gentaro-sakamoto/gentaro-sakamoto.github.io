@@ -1,32 +1,40 @@
 ---
 published: true
-title: How To Install Docker and Docker Compose On CentOS 6.5
+title: How To Install Docker and Docker Compose on CentOS 7.2
 layout: post
 ---
-How To Install Docker and Docker Compose on CentOS 6.5
+Check your OS version
+```
+[user@instance ~]$ cat /etc/redhat-release
+CentOS Linux release 7.2.1511 (Core)
+```
 
 ### Check Your Current Kernel Version
 > Docker requires a 64-bit installation regardless of your CentOS version. Also, your kernel must be 3.10 at minimum, which CentOS 7 runs.
 
 ```
 [user@instance ~]$ uname -r
-2.6.32-431.29.2.el6.x86_64
-```
-
-My kernel was quite old. So I've updated the kernel to the following version following the article [Install Kernel 3.10 on CentOS 6.5](http://bicofino.io/2014/10/25/install-kernel-3-dot-10-on-centos-6-dot-5/).
-
-Then now we have the kernel version 3.10.
-
-```
-[user@instance ~]$ uname -r
-3.10.101-1.el6.elrepo.x86_64
+3.10.0-327.10.1.el7.x86_64
 ```
 
 ### Install Docker
+Add the yum repo.
 
 ```
-sudo yum install epel-release
-sudo yum install docker-io
+sudo tee /etc/yum.repos.d/docker.repo <<-'EOF'
+[dockerrepo]
+name=Docker Repository
+baseurl=https://yum.dockerproject.org/repo/main/centos/$releasever/
+enabled=1
+gpgcheck=1
+gpgkey=https://yum.dockerproject.org/gpg
+EOF
+```
+
+Install the docker package
+
+```
+sudo yum install docker-engine
 ```
 
 ### To Allow Non-root User To Use Docker
@@ -46,6 +54,7 @@ sudo usermod -a -G docker your_username
 Then you can run docker without sudo
 
 ```
+sudo service docker start
 docker run hello-world
 ```
 
@@ -76,6 +85,5 @@ docker-compose --version
 ```
 
 # References
-- [Install Docker and Learn Basic Container Manipulation in CentOS and RHEL 7/6 – Part 1](http://www.tecmint.com/install-docker-and-learn-containers-in-centos-rhel-7-6/)
 - [Installation on CentOS](https://docs.docker.com/engine/installation/linux/centos/)
 - [Install Docker Compose](https://docs.docker.com/compose/install/)
