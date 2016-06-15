@@ -1,6 +1,6 @@
 ---
 published: false
-title: How to upload photo by Paperclip On AWS
+title: How To Upload Photo By Paperclip On AWS
 layout: post
 ---
 # Configuration On AWS Side
