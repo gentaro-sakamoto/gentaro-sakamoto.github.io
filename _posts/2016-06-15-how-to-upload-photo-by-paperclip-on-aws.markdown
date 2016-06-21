@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How To Upload Photo By Paperclip On AWS
 layout: post
 ---
@@ -42,7 +42,8 @@ production:
 config.paperclip_defaults = {
   :storage => :s3,
   :s3_host_name => 'REMOVE_THIS_LINE_IF_UNNECESSARY',
-  :bucket => 'S3_BUCKET_NAME'
+  :bucket => 'S3_BUCKET_NAME',
+  :s3_credentials => "#{Rails.root}/config/aws.yml"
 }
 ```
 
