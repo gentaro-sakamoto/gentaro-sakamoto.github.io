@@ -81,4 +81,3 @@ http://[Proxy Server IP or Domain]/
 # References
 
 - [ELASTICSEARCH KIBANA BETA BEHIND APACHE PROXY](http://mmbash.de/blog/kibana-beta-behind-apache-proxy/)
-
