@@ -3,12 +3,12 @@ published: true
 title: How To Allow To Access To Kibana Via Port 80 On CentOS 6.5
 layout: post
 ---
-# Prerequisite
+### Prerequisite
 
 - CentOS6.5
 - Kibana4.5.1
 
-# Install Kibana
+### Install Kibana
 
 Setup yum repository for kibana
 
@@ -35,7 +35,7 @@ Allow kibana to start automatically
 chkconfig --add kibana
 ```
 
-# Setup web server
+### Setup web server
 
 Install apache and allow it to start automatically
 
@@ -78,6 +78,6 @@ http://[Proxy Server IP or Domain]/
 ```
 
 
-# References
+### References
 
 - [ELASTICSEARCH KIBANA BETA BEHIND APACHE PROXY](http://mmbash.de/blog/kibana-beta-behind-apache-proxy/)
