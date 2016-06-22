@@ -1,6 +1,6 @@
 ---
 published: true
-title: How to Multihop SSH To Remote Private Server
+title: How to Multi-hop SSH To Remote Private Server
 layout: post
 ---
 Let's say we have 2 instances on AWS. In terms of SSH access, the one instance is the bastion instance which is public and the other is web instance which is private. You can ssh to the web instance through the bastion. In this context, someone ssh-logins to the web instance with the following consecutive commands.
