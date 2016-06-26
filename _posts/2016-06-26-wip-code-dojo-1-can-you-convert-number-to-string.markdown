@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: [WIP] Code Dojo #1. Can You Convert Number To String?
 layout: post
 ---
