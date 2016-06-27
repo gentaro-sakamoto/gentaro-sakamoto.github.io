@@ -5,7 +5,7 @@ layout: post
 ---
 ### Design the program before implementing
 
-To begin with, let's think about what type of numbers are there in the world to design the program.
+To begin with, let's think about what type of numbers there are in the world to design the program.
 
 #### Type of numbers
 - negative and positive integer
