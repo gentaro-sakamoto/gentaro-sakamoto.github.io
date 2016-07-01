@@ -211,4 +211,4 @@ dev-mac:gentaro-sakamoto.github.io gentaro$ ruby -e "puts rand(10**303..10**304)
 
 ### References
 - [radar/humanize](https://github.com/radar/humanize)
-- [Names of large numbers](https://en.wikipedia.org/wiki/Names_of_large_numbers)
+- [Number Names](http://www.thealmightyguru.com/Pointless/BigNumbers.html)
