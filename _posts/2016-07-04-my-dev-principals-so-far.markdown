@@ -5,7 +5,7 @@ layout: post
 ---
 Today I got opportunity to re-think my dev principals. So I listed them here.
 
-# My Dev Principals
+### My Dev Principals
 - Simplicity
 - Readability
 - Visibility
