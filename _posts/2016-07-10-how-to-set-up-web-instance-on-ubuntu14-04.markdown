@@ -3,11 +3,6 @@ published: true
 title: How To Set Up Web Instance On Ubuntu14.04
 layout: post
 ---
----
-published: false
-title: How To Set Up Web Instance On Ubuntu14.04
-layout: post
----
 ### Prerequisites
 - It will take 2 hours.
 - Git 1.9.1
