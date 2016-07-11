@@ -3,8 +3,23 @@ published: false
 title: How To Set Up Web Instance On Ubuntu14.04
 layout: post
 ---
+---
+published: false
+title: How To Set Up Web Instance On Ubuntu14.04
+layout: post
+---
 ### Prerequisites
 - It will take 2 hours.
+- Git 1.9.1
+- RVM 1.27
+- Ruby 2.2.3
+- Ubuntu 14.04.03
+- Rails 4.2
+- Apache
+- Passenger
+- MySQL6.5
+- ImageMagick 
+
 
 ### Check OS Version
 
@@ -122,12 +137,12 @@ source ~/.rvm/scripts/rvm
 rvm 1.27.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 ```
 
-#### Install Ruby 2.1
+#### Install Ruby 2.2.3
 ```
-> rvm install 2.1
+> rvm install 2.2.3
 > ruby -v
-ruby 2.1.8p440 (2015-12-16 revision 53160) [x86_64-linux]
-rvm use 2.1 --default
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
+rvm use 2.2.3 --default
 ```
 
 #### Setup Apache
@@ -151,14 +166,109 @@ Module passenger already enabled
 sudo service apache2 restart
 
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/unique.conf
+vi /etc/apache2/sites-available/unique.conf
+```
 
-#TBC
+*/etc/apache2/sites-available/unique.conf*
+
+```
+<VirtualHost *:80>
+    ServerName 52.69.41.184
+    ServerAlias 52.69.41.184
+    ServerAdmin dev@localhost
+    DocumentRoot /var/www/unique/public
+    RailsEnv production
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+    <Directory "/var/www/unique/public">
+        Options FollowSymLinks
+        Require all granted
+    </Directory>
+</VirtualHost>
+```
+
+Setup your code
+
+```
+mkdir -p /var/www/
+sudo chown dev:dev /var/www
+
+> git clone https://github.com/gentaro-sakamoto/unique.git
+Cloning into 'unique'...
+remote: Counting objects: 1929, done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 1929 (delta 17), reused 7 (delta 7), pack-reused 1885
+Receiving objects: 100% (1929/1929), 6.23 MiB | 2.00 MiB/s, done.
+Resolving deltas: 100% (422/422), done.
+Checking connectivity... done.
+```
+
+Disable default site, enable my new site, and restart Apacche.
+
+```
+sudo a2dissite 000-default
+sudo a2ensite unique
+sudo service apache2 restart
 ```
 
 #### Setup MySQL Client
-#### Install ImageMagick
 
-### Create AMI
+```
+sudo apt-get install mysql-client-5.6
+sudo apt-get install libmysqld-dev 
+```
+
+#### Install ImageMagick
+```
+sudo apt-get install imagemagick libmagickwand-dev
+```
+
+#### Install libxml2
+
+```
+sudo apt-get install ruby-dev zlib1g-dev liblzma-dev
+```
+
+#### Setup Rails App
+
+Install gems
+
+```
+gem install bundler
+bundle config build.nokogiri --use-system-libraries
+bundle install --without=development test
+```
+
+Check your database.yml and secrets.yml deployed successfully
+
+```
+less config/secrets.yml
+less config/database.yml
+```
+
+Setup database
+
+```
+bundle exec rake db:setup RAILS_ENV=production
+```
+
+Asset precompile
+
+```
+bundle exec rake assets:precompile RAILS_ENV=production
+```
+
+#### That's all
+You can visit your page like this.
+
+```
+http://52.69.41.184/user/
+```
+
+#### Create AMI
+
+Just in case you terminate the web instance, you'd better create the AMI of it.
+
 
 ### References
 - [Ultimate Prompt and bashrc. File](http://www.linuxquestions.org/questions/linux-general-1/ultimate-prompt-and-bashrc-file-4175518169/)
