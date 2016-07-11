@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How To Set Up Web Instance On Ubuntu14.04
 layout: post
 ---
