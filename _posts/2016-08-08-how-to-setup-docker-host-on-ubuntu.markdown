@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How To Setup Docker Host On Ubuntu
 layout: post
 ---
