@@ -1,9 +1,8 @@
 ---
 published: false
-title: How To Deploy Rails App With AWS CodeDeploy
+title: How To Setup Docker Host On Ubuntu
 layout: post
 ---
-
 ### Prerequisites
 - You have done with initial server setup mentioned in [the artcle](http://gentaro-sakamoto.github.io/2016/07/10/how-to-set-up-web-instance-on-ubuntu14-04.html)
 
