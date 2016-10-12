@@ -23,6 +23,8 @@ In a couple months, I had been using MySQL database in a project. From October, 
 |Show process list |show processlist| SELECT * from pg_stat_activity|
 |Show table schema |desc table| \d+ table|
 |Show user list|SELECT User, Host FROM mysql.user;| \du|
+|Dump data|mysqldump -u {uname} -p{pass} {source_db} > {backupfile.sql]}| pg_dump -U {uname} {source_db} -f {backupfile.sql}|
+|Restore data|mysql -u {uname} -p {pass} {db_to_restore} < {backupfile.sql}| psql -U {uname} -d {db_to_restore} -f {backupfile.sql}|
 |Logout|\q| \q|
 
 
@@ -31,3 +33,4 @@ In a couple months, I had been using MySQL database in a project. From October, 
 - [MySQL vs PostgreSQL](https://www.wikivs.com/wiki/MySQL_vs_PostgreSQL)
 - [MySQL and Postgres command equivalents (mysql vs psql)](http://blog.endpoint.com/2009/12/mysql-and-postgres-command-equivalents.html)
 - [PostgreSQLとMySQLの基本的なコマンドを比較](http://qiita.com/pugiemonn/items/75870ece3c8476bcb1c8)
+- [How To Backup and Restore PostgreSQL Database Using pg_dump and psql](http://www.thegeekstuff.com/2009/01/how-to-backup-and-restore-postgres-database-using-pg_dump-and-psql/)
