@@ -5,7 +5,7 @@ layout: post
 ---
 
 ### Background
-In a couple months, I had been using MySQL database in a project. From October, I've changed the project which has been using PostgreSQL. It's less famliar to me than MySQL. So this time, I'm going to organaize the differences between MySQL and PostgreSQL.
+In a couple months, I had been using MySQL database in a project. From October, 2016, I've changed the project which has been using PostgreSQL. It's less famliar to me than MySQL. So this time, I'm going to organaize the differences between MySQL and PostgreSQL.
 
 ### Past image to the both databases
 
